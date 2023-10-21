@@ -16,7 +16,7 @@
                 <button :disabled="!validatePhoneNum" color="#F8CC00"  @click="getCode" >获取验证码</button>
              </view> -->
          </view>
-         <view class="flex mt-6 mb-5 m-l-10% font-size-2.5">
+         <view class="flex mt-6 mb-5 m-l-10% ">
              <view>
                  <label class="flex flex-justify-left grid-items-center">
                      <checkbox-group @change="changeChecked">
@@ -26,9 +26,9 @@
                     </checkbox-group>
                      <text class="color-#999">
                          <text>登录即代表同意</text>
-                         <text class="color-#333">[用户协议]</text>
+                         <text class="color-#004cfe">[用户协议]</text>
                          <text>和</text>
-                         <text class="color-#333">[隐私政策]</text>
+                         <text class="color-#004cfe">[隐私政策]</text>
                      </text>
                  </label>
              </view>
