@@ -24,7 +24,7 @@
                             <checkbox :checked="isAgree" style="transform:scale(0.6)" />
                         </label>
                     </checkbox-group>
-                     <text>
+                     <text class="color-#999">
                          <text>登录即代表同意</text>
                          <text class="color-#004cfe">[用户协议]</text>
                          <text>和</text>
